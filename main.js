@@ -17,7 +17,7 @@ input.addEventListener("keypress", function (e) {
                 if (thumbnail === "") {
                     thumbnail = "img/fork-img.jpg"
                 }
-                grid.innerHTML += `<div class="recipe" style="background-image: url(${thumbnail})"><p><span>Dish:</span> <a href=${currentLink}>${currentTitle}</a></p></div>`
+                grid.innerHTML += `<div class="recipe" style="background-image: url(${thumbnail})"><p><span id="label">Dish:</span> <a href=${currentLink}>${currentTitle}</a></p></div>`
 
                 url = "http://recipepuppyproxy.herokuapp.com/api/?q=";
             }

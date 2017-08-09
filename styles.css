@@ -22,6 +22,7 @@ input {
     border: none;
     border-bottom: 3px solid grey;
     color: grey;
+    padding-left: 10px;
 }
 
 .section {

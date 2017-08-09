@@ -22,7 +22,9 @@ input.addEventListener("keypress", function (e) {
                 url = "http://recipepuppyproxy.herokuapp.com/api/?q=";
             }
         })
-
+            .catch(function (response) {
+                console.log(respose);
+            })
     }
 
 })
